@@ -4,7 +4,6 @@ class Shoe
 
   BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
   BRANDS.uniq!
-BRANDS.size == 3
 
   def initialize(brand)
     @brand = brand
@@ -19,7 +18,8 @@ def brands=(brands)
 
     @brands = brands
     brands = brands
-    Shoe.BRANDS.size = 3
   end
-
+def size=(size)
+  BRANDS.size == 3
+end
 end
