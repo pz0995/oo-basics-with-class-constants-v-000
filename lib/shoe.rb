@@ -20,6 +20,6 @@ def brands=(brands)
     brands = brands
   end
 def size=(size)
-  BRANDS.size == 3
+  BRANDS.size = 3
 end
 end
