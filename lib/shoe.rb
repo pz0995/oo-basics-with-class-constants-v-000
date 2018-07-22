@@ -4,8 +4,10 @@ class Shoe
 
   BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
   BRANDS.uniq!
-values.uniq!  def initialize(brand)
+values.uniq!
 unique = BRANDS.uniq
+
+def initialize(brand)
     @brand = brand
 
   end
