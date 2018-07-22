@@ -3,12 +3,14 @@ class Shoe
   attr_reader :brand
 
   BRANDS = []
-  unique = BRANDS.uniq!
+
 
 
 def initialize(brand)
-    @brand = brand.uniq!
+    @brand = brand
    BRANDS << brand
+
+     unique = BRANDS.uniq!
   end
 
   def cobble(size)
