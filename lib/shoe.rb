@@ -15,6 +15,7 @@ class Shoe
     puts "Your shoe is as good as new!"
 
     self.brands
+    BRANDS << brands
   end
 
 end
