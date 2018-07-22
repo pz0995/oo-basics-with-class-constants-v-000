@@ -13,10 +13,10 @@ class Shoe
     puts "Your shoe is as good as new!"
 
 end
-def brand(brands)
-    @brands = brands
-    brand = brand.uniq
-    self.BRAND.size = 3
+def brand(brand)
+    @brand = brand
+    brand = brands.uniq
+    self.BRANDS.size = 3
   end
 
 end
