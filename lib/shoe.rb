@@ -14,7 +14,7 @@ class Shoe
 
 end
 def brand=(brand)
-  hash.map { |k,v| v }.uniq.each { |name| puts name }
+  brands.map { |k,v| v }.uniq.each { |name| puts name }
 
     @brand = brand
     brand = brands
