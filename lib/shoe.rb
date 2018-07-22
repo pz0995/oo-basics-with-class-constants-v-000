@@ -17,7 +17,7 @@ class Shoe
     @brand = brand
     brand.uniq!
     brands = brands.uniq
-    BRANDS.size = 3
+    self.BRANDS.size = 3
   end
 
 end
