@@ -16,7 +16,7 @@ class Shoe
 
 
     @brand = brand
-    BRANDS.size << brand
+    BRANDS.size << brand.uniq
   end
 
 end
