@@ -4,8 +4,8 @@ class Shoe
 
   BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"].uniq
 
-  def initialize(brands)
-    @brand = brands
+  def initialize(brand)
+    @brand = brand
   end
 
   def cobble(size)
