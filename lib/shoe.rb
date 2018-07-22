@@ -16,7 +16,7 @@ end
 def brand(brand)
     @brand = brand
     brand = brand.uniq
-    self.BRANDS.size = 3
+    self.BRAND.size = 3
   end
 
 end
