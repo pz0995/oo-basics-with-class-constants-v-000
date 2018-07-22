@@ -19,7 +19,7 @@ def brands=(brands)
 
     @brands = brands
     brands = brands
-    self.BRANDS.size = 3
+    Shoe.BRANDS.size = 3
   end
 
 end
