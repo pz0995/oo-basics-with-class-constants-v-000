@@ -4,6 +4,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    brands = ["Uggs", "Rainbow", "Nike", "Nike"]
   end
 
   def cobble
