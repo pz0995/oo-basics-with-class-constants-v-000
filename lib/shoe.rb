@@ -9,7 +9,7 @@ class Shoe
     @size = 3
   end
 
-  def cobble
+  def cobble(size)
     self.condition = "new"
     puts "Your shoe is as good as new!"
 
