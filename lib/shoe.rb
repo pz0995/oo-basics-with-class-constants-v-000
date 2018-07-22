@@ -4,8 +4,8 @@ class Shoe
 
   BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
 
-  def initialize(brand)
-    @brand = brand
+  def initialize(brands)
+    @brand = brands
   end
 
   def cobble(size)
@@ -13,8 +13,8 @@ class Shoe
     puts "Your shoe is as good as new!"
 
 end
-def brand(brand)
-    @brand = brand
+def brand(brands)
+    @brands = brands
     brand = brand.uniq
     self.BRAND.size = 3
   end
