@@ -2,7 +2,8 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
-  BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"].uniq
+  BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
+  BRANDS.uniq
 
   def initialize(brand)
     @brand = brand
@@ -14,7 +15,6 @@ class Shoe
 
 end
 def brand=(brand)
-  brands.map { |k,v| v }.uniq.each { |name| puts name }
 
     @brand = brand
     brand = brands
