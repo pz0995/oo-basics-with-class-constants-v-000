@@ -15,7 +15,7 @@ class Shoe
     puts "Your shoe is as good as new!"
 
     self.brand
-    BRANDS.size << brands(3)
+    BRANDS.size = 3
   end
 
 end
