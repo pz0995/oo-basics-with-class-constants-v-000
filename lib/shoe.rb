@@ -18,6 +18,7 @@ def brands=(brands)
 
     @brands = brands
     brands = brands
+    BRANDS << brand
   end
 def size=(size)
   BRANDS.size = 3
