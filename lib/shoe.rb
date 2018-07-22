@@ -16,7 +16,7 @@ class Shoe
 
 
     @brand = brand
-    BRANDS.size << brands (3)
+    BRANDS.size << brand
   end
 
 end
