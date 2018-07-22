@@ -15,8 +15,8 @@ class Shoe
     puts "Your shoe is as good as new!"
 
 
-    @brand
-    BRANDS.size = 3
+    @brand = brand
+    BRANDS.size << brands (3)
   end
 
 end
